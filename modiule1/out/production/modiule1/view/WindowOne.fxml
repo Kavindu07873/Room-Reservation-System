@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="WindowOne1" prefHeight="534.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.WindowOneController">
+   <children>
+      <ImageView fitHeight="534.0" fitWidth="642.0" layoutX="-6.0" opacity="0.56" pickOnBounds="true">
+         <image>
+            <Image url="@../Asset/maldives-ocean-outdoors-vacations-sand.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="167.0" layoutY="29.0" prefHeight="92.0" prefWidth="455.0" text="Blue Ocene Hotel" textFill="#3c0bae">
+         <font>
+            <Font name="Forte" size="57.0" />
+         </font>
+      </Label>
+      <Button layoutX="162.0" layoutY="183.0" mnemonicParsing="false" onAction="#OnClickActionAdmin" prefHeight="44.0" prefWidth="277.0" text="Admin" />
+      <Button layoutX="162.0" layoutY="341.0" mnemonicParsing="false" onAction="#OnClickActionReceptinist" prefHeight="53.0" prefWidth="277.0" text="Receptionist" />
+      <Label layoutX="283.0" layoutY="267.0" text="OR" textFill="#e41212">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Separator layoutX="67.0" layoutY="287.0" prefWidth="200.0" />
+      <Separator layoutX="353.0" layoutY="287.0" prefHeight="3.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
